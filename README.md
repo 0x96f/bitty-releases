@@ -26,17 +26,11 @@ Apple silicon and Intel Macs.
 
 ### Install with Homebrew
 
-Install from the shared Forge tap. Use a GitHub CLI login with read access to
-`0x96f/bitty-releases`, which hosts the release ZIP.
+Install from the shared Forge tap:
 
 ```sh
-gh auth status
 brew install --cask 0x96f/forge/bitty
 ```
-
-You can also authenticate the ZIP download by setting
-`HOMEBREW_GITHUB_API_TOKEN` to a fine-grained token with Contents read access
-to `0x96f/bitty-releases` when installing or upgrading.
 
 ### First launch
 
